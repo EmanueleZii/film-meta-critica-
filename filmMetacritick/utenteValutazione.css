@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #333;
+    color: #fff;
+}
+
+h1{
+    padding-bottom:1em; 
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: green;
+}
+
+.btn{
+    margin-top: 12px;
+    padding: 1em 1em;
+    color:#fff;
+    border: 1px solid #fff;
+    background-color: green;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color:green;
+    border: 1px solid green;
+    margin-bottom: 12px;
+    background-color: #fff;
+}
